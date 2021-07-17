@@ -92,7 +92,7 @@ buttons = [
     ], 
 
     [
-        InlineKeyboardButton(text="𝙅𝙖𝙮𝙙𝙖 𝙅𝙖𝙣𝙠𝙖𝙧𝙞❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙐𝙨𝙚𝙛𝙪𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❔", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
