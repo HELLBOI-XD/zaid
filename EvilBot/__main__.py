@@ -73,9 +73,9 @@ buttons = [
             text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝙈𝙮 𝙊𝙬𝙣𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
+        InlineKeyboardButton(text="𝙑𝘾 𝙋𝙡𝙖𝙮𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
         InlineKeyboardButton(
-            text="𝙈𝙮 𝙒𝙤𝙧𝙡𝙙🌐", url="https://t.me/Zaid_Team"
+            text="🌐", url="https://t.me/sed_i/51"
         ),
      ],
      [  
