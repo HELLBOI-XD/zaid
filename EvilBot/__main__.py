@@ -81,9 +81,9 @@ buttons = [
             text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝙑𝘾 𝙋𝙡𝙖𝙮𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
+        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
         InlineKeyboardButton(
-            text="🌐", url="https://t.me/sed_i/51"
+            text="𝙑𝘾 𝙋𝙡𝙖𝙮𝙚𝙧", url="https://t.me/sed_i/51"
         ),
      ],
      [  
@@ -92,7 +92,7 @@ buttons = [
     ], 
 
     [
-        InlineKeyboardButton(text="𝙝𝙚𝙡𝙥 𝙖𝙣𝙙 𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝙅𝙖𝙮𝙙𝙖 𝙅𝙖𝙣𝙠𝙖𝙧𝙞❔", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
