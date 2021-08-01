@@ -69,7 +69,7 @@ PM_START_TEXT = """
 𝐖𝐢𝐭𝐡 𝐋𝐨𝐭𝐬 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭
 𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭 𝐈𝐬 𝐚𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭+𝐌𝐮𝐬𝐢𝐜🔥 𝐛𝐨𝐭.
 
-𝐅𝐨𝐫 𝐇𝐞𝐥𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 :- @𝐓𝐢𝐦𝐞𝐬𝐢𝐬𝐧𝐨𝐭𝐰𝐚𝐢𝐭𝐢𝐧𝐠
+𝐅𝐨𝐫 𝐇𝐞𝐥𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 [🔥] (@Timesisnotwaiting)
 
 
  𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 𝐇𝐢𝐭` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
@@ -95,11 +95,11 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭* [👿](https://telegra.ph/file/ab5ca03efe14504732796.mp4)
-`𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
+`𝐇𝐨𝐢!.. 𝐌𝐲 𝐬𝐞𝐥𝐟 🔥 *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭* [🔥](https://telegra.ph/file/ab5ca03efe14504732796.mp4)
+`𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐁𝐞𝐥𝐨𝐰 𝐓𝐨 𝐆𝐞𝐭 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐀𝐛𝐨𝐮𝐭  𝐌𝐨𝐝𝐮𝐥𝐞𝐬 🔥..`"""
 Zaid_IMG = "https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @shrvan42 \
+ You can support the project via [Paypal](#) or by contacting @Timesinotwaiting \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 IMPORTED = {}
@@ -169,7 +169,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ BACK", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔥 𝐁𝐚𝐜𝐤", callback_data="help_back")]]
                     ),
                 )
             elif args[0].lower().startswith("stngs_"):
@@ -408,7 +408,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝐁𝐚𝐜𝐤", callback_data="help_back")]]
             ),
         )
     else:
@@ -474,7 +474,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Back",
+                                text="𝐁𝐚𝐜𝐤",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
