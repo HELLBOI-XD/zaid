@@ -6,7 +6,7 @@ import os
 from PIL import Image
 from datetime import datetime
 from telegraph import Telegraph, upload_file, exceptions
-shrvan42 = "EVIL"
+Timesisnotwaiting = "ZAID"
 telegraph = Telegraph()
 r = telegraph.create_account(short_name=shrvan42)
 auth_url = r["auth_url"]
@@ -41,7 +41,7 @@ async def _(event):
                 end = datetime.now()
                 ms_two = (end - start).seconds
                 os.remove(downloaded_file_name)
-                await h.edit("Uploaded to https://telegra.ph{})".format(media_urls[0]), link_preview=True)
+                await h.edit("𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐓𝐨 🔥 https://telegra.ph{})".format(media_urls[0]), link_preview=True)
         elif input_str == "xt":
             user_object = await tbot.get_entity(r_message.sender_id)
             title_of_page = user_object.first_name # + " " + user_object.last_name
@@ -69,9 +69,9 @@ async def _(event):
             )
             end = datetime.now()
             ms = (end - start).seconds
-            await event.reply("Pasted to https://telegra.ph/{} in {} seconds.".format(response["path"], ms), link_preview=True)
+            await event.reply("𝐏𝐚𝐬𝐭𝐞𝐝 𝐭𝐨🔥 https://telegra.ph/{} in {} seconds.".format(response["path"], ms), link_preview=True)
     else:
-        await event.reply("Reply to a message to get a permanent telegra.ph link.")
+        await event.reply("𝐑𝐞𝐩𝐥𝐲 𝐭𝐨 𝐚 𝐦𝐞𝐬𝐬𝐚𝐠𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐚 𝐩𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐭𝐞𝐥𝐞𝐠𝐫𝐚.𝐩𝐡 𝐥𝐢𝐧𝐤.")
 
 
 def resize_image(image):
