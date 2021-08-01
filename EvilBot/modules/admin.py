@@ -50,15 +50,15 @@ def promote(update: Update, context: CallbackContext) -> str:
         not (promoter.can_promote_members or promoter.status == "creator")
         and user.id not in DRAGONS
     ):
-        message.reply_text("You don't have the necessary rights to do that!")
+        message.reply_text("𝐘𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐡𝐚𝐯𝐞 𝐭𝐡𝐞 𝐧𝐞𝐜𝐞𝐬𝐬𝐚𝐫𝐲 𝐫𝐢𝐠𝐡𝐭𝐬 𝐭𝐨 𝐝𝐨 𝐭𝐡𝐚𝐭! 𝐒𝐞𝐝 𝐕𝐫𝐨🔥!")
         return
 
     user_id = extract_user(message, args)
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
-        )
+            "𝐘𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐬𝐞𝐞𝐦 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐟𝐞𝐫𝐫𝐢𝐧𝐠 𝐭𝐨 𝐚 𝐮𝐬𝐞𝐫 𝐨𝐫 𝐭𝐡𝐞 𝐈𝐃 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐞𝐝 𝐢𝐬 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭"
+         )
         return
 
     try:
@@ -145,11 +145,11 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_member.status == "creator":
-        message.reply_text("This person CREATED the chat, how would I demote them?")
+        message.reply_text("𝐀𝐛𝐞 𝐂𝐫𝐞𝐚𝐭𝐞𝐫 𝐇𝐚𝐢 𝐎𝐡𝐡 𝐔𝐬𝐤𝐨 𝐃𝐞𝐦𝐨𝐭𝐞 𝐊𝐲𝐮 𝐊𝐚𝐫𝐮?")
         return
 
     if not user_member.status == "administrator":
-        message.reply_text("Can't demote what wasn't promoted!")
+        message.reply_text("𝐘𝐞 𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐓𝐡𝐚 𝐁𝐡𝐢?😁🧐!")
         return
 
     if user_id == bot.id:
