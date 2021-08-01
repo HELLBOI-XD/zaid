@@ -64,16 +64,15 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝚎𝚕𝚕𝚘` [👿](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭*
+`𝐇𝐨𝐢` [🔥](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `𝐌𝐲 𝐒𝐞𝐥𝐟` *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭*
 `𝐇𝐢𝐢, 𝐈 𝐦 𝐇𝐞𝐫𝐞 𝐇𝐞𝐥𝐩 𝐔 𝐌𝐚𝐧𝐚𝐠𝐞 𝐔𝐫 𝐠𝐫𝐨𝐮𝐩 𝐄𝐚𝐬𝐢𝐥𝐲.
 𝐖𝐢𝐭𝐡 𝐋𝐨𝐭𝐬 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭
-𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭 𝐈𝐬 𝐚𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐛𝐨𝐭.
+𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭 𝐈𝐬 𝐚𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭+𝐌𝐮𝐬𝐢𝐜🔥 𝐛𝐨𝐭.
 
-𝐦𝐲 𝐎𝐰𝐧𝐞𝐫 𝐈𝐬 :- @𝐓𝐢𝐦𝐞𝐬𝐢𝐬𝐧𝐨𝐭𝐰𝐚𝐢𝐭𝐢𝐧𝐠
+𝐅𝐨𝐫 𝐇𝐞𝐥𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 :- @𝐓𝐢𝐦𝐞𝐬𝐢𝐬𝐧𝐨𝐭𝐰𝐚𝐢𝐭𝐢𝐧𝐠
 
 
-𝐂𝐫𝐞𝐝𝐢𝐭𝐬:- @𝐓𝐠𝐱𝐁𝐨𝐭𝐳_𝐔𝐩𝐝𝐚𝐭𝐞!
- 𝙷𝚒𝚝` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
+ 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 𝐇𝐢𝐭` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
 """
 buttons = [
     [
@@ -88,7 +87,7 @@ buttons = [
      ],
      [  
         InlineKeyboardButton(text="𝙕𝙖𝙞𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩🛠", url="https://t.me/Zaid_Team"),
-        InlineKeyboardButton(text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/Sed_i"),
+        InlineKeyboardButton(text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/Zaid_Updates"),
     ], 
 
     [
