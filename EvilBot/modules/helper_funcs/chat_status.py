@@ -366,7 +366,7 @@ def user_can_ban(func):
             and user not in [777000, 1099219137]
         ):
             update.effective_message.reply_text(
-                "😹 Sorry You can't do that"
+                "🔥 𝐖𝐓𝐅 𝐓𝐞𝐫𝐞 𝐩𝐚𝐬𝐬 𝐏𝐞𝐫𝐦𝐢𝐬𝐬𝐢𝐨𝐧 𝐍𝐨𝐢 𝐡"
             )
             return ""
         return func(update, context, *args, **kwargs)
