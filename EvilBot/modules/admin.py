@@ -130,12 +130,12 @@ def demote(update: Update, context: CallbackContext) -> str:
     user_id = extract_user(message, args)
 
     if user_can_promote(chat, user, context.bot.id) is False:
-        message.reply_text("You don't have enough rights to demote someone!")
+        message.reply_text("𝐔 𝐃𝐨𝐧'𝐭 𝐇𝐚𝐯𝐞 𝐑𝐢𝐠𝐡𝐭𝐬 𝐁𝐫𝐨 𝐓𝐨 𝐃𝐨 𝐓𝐡𝐚𝐭 𝐒𝐞𝐝!")
         return ""
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
+            "𝐘𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐬𝐞𝐞𝐦 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐟𝐞𝐫𝐫𝐢𝐧𝐠 𝐭𝐨 𝐚 𝐮𝐬𝐞𝐫 𝐨𝐫 𝐭𝐡𝐞 𝐈𝐃 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐞𝐝 𝐢𝐬 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭.."
         )
         return
 
@@ -153,7 +153,7 @@ def demote(update: Update, context: CallbackContext) -> str:
         return
 
     if user_id == bot.id:
-        message.reply_text("I can't demote myself! Get an admin to do it for me.")
+        message.reply_text("𝐇𝐨𝐰 𝐂𝐚𝐧 𝐈 𝐃𝐞𝐦𝐨𝐭𝐞 𝐌𝐲 𝐒𝐞𝐥𝐟 𝐕𝐫𝐨.")
         return
 
     try:
@@ -172,7 +172,7 @@ def demote(update: Update, context: CallbackContext) -> str:
 
         bot.sendMessage(
             chat.id,
-            f"Sucessfully demoted <b>{user_member.user.first_name or user_id}</b>!",
+            f"𝐀𝐚 𝐆𝐲𝐚 𝐉𝐚𝐦𝐞𝐞𝐧 𝐏𝐞 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲🔥 <b>{user_member.user.first_name or user_id}</b>!",
             parse_mode=ParseMode.HTML,
         )
 
@@ -186,8 +186,8 @@ def demote(update: Update, context: CallbackContext) -> str:
         return log_message
     except BadRequest:
         message.reply_text(
-            "Could not demote. I might not be admin, or the admin status was appointed by another"
-            " user, so I can't act upon them!"
+            "𝐂𝐨𝐮𝐥𝐝 𝐧𝐨𝐭 𝐝𝐞𝐦𝐨𝐭𝐞. 𝐈 𝐦𝐢𝐠𝐡𝐭 𝐧𝐨𝐭 𝐛𝐞 𝐚𝐝𝐦𝐢𝐧, 𝐨𝐫 𝐭𝐡𝐞 𝐚𝐝𝐦𝐢𝐧 𝐬𝐭𝐚𝐭𝐮𝐬 𝐰𝐚𝐬 𝐚𝐩𝐩𝐨𝐢𝐧𝐭𝐞𝐝 𝐛𝐲 𝐚𝐧𝐨𝐭𝐡𝐞𝐫"
+            " user, 𝐬𝐨 𝐈 𝐜𝐚𝐧'𝐭 𝐚𝐜𝐭 𝐮𝐩𝐨𝐧 𝐭𝐡𝐞𝐦!"
         )
         return
 
@@ -200,7 +200,7 @@ def refresh_admin(update, _):
     except KeyError:
         pass
 
-    update.effective_message.reply_text("Admins cache refreshed!")
+    update.effective_message.reply_text("𝐀𝐝𝐦𝐢𝐧𝐬 𝐜𝐚𝐜𝐡𝐞 𝐫𝐞𝐟𝐫𝐞𝐬𝐡𝐞𝐝🔥!")
 
 
 @run_async
@@ -223,13 +223,13 @@ def set_title(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
+            "𝐘𝐨𝐮 𝐝𝐨𝐧'𝐭 𝐬𝐞𝐞𝐦 𝐭𝐨 𝐛𝐞 𝐫𝐞𝐟𝐞𝐫𝐫𝐢𝐧𝐠 𝐭𝐨 𝐚 𝐮𝐬𝐞𝐫 𝐨𝐫 𝐭𝐡𝐞 𝐈𝐃 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐞𝐝 𝐢𝐬 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭.."
         )
         return
 
     if user_member.status == "creator":
         message.reply_text(
-            "This person CREATED the chat, how can i set custom title for him?"
+            "𝐎𝐰𝐧𝐞𝐫 𝐊𝐚 𝐓𝐢𝐭𝐥𝐞 𝐊𝐚𝐢𝐬𝐞 𝐒𝐞𝐭 𝐊𝐚𝐫 𝐒𝐚𝐤𝐭𝐚 𝐇𝐮 𝐯𝐫𝐨 𝐁𝐞𝐜𝐡𝐫𝐞 𝐊𝐨 𝐦𝐚𝐧𝐮𝐚𝐥𝐥𝐲 𝐊𝐚𝐫𝐧𝐚 𝐏𝐚𝐝𝐞𝐠𝐚🔥"
         )
         return
 
@@ -241,7 +241,7 @@ def set_title(update: Update, context: CallbackContext):
 
     if user_id == bot.id:
         message.reply_text(
-            "I can't set my own title myself! Get the one who made me admin to do it for me."
+            "𝐈 𝐜𝐚𝐧'𝐭 𝐬𝐞𝐭 𝐦𝐲 𝐨𝐰𝐧 𝐭𝐢𝐭𝐥𝐞 𝐦𝐲𝐬𝐞𝐥𝐟! 𝐆𝐞𝐭 𝐭𝐡𝐞 𝐨𝐧𝐞 𝐰𝐡𝐨 𝐦𝐚𝐝𝐞 𝐦𝐞 𝐚𝐝𝐦𝐢𝐧 𝐭𝐨 𝐝𝐨 𝐢𝐭 𝐟𝐨𝐫 𝐦𝐞."
         )
         return
 
@@ -251,7 +251,7 @@ def set_title(update: Update, context: CallbackContext):
 
     if len(title) > 16:
         message.reply_text(
-            "The title length is longer than 16 characters.\nTruncating it to 16 characters."
+            "𝐀𝐛𝐞 𝐓𝐢𝐭𝐥𝐞 𝐢𝐧𝐬𝐢𝐝𝐞 𝟏𝟔 𝐖𝐨𝐫𝐝𝐬 𝐌 𝐝𝐚𝐥 𝐕𝐫𝐨.\n 𝐁𝐭𝐰 𝐏𝐫𝐨𝐦𝐨𝐭𝐞𝐝 𝐓𝐢𝐭𝐥𝐞 𝐀𝐝𝐦𝐢𝐧."
         )
 
     try:
