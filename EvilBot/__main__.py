@@ -91,15 +91,15 @@ buttons = [
     ], 
 
     [
-        InlineKeyboardButton(text="𝙐𝙨𝙚𝙛𝙪𝙡𝙡 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨❔", callback_data="help_back"),
+        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝐇𝐨𝐢!.. 𝐌𝐲 𝐬𝐞𝐥𝐟 🔥 *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭* [🔥](https://telegra.ph/file/ab5ca03efe14504732796.mp4)
-`𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧𝐬 𝐁𝐞𝐥𝐨𝐰 𝐓𝐨 𝐆𝐞𝐭 𝐃𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐀𝐛𝐨𝐮𝐭  𝐌𝐨𝐝𝐮𝐥𝐞𝐬 🔥..`"""
-Zaid_IMG = "https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg"
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Zaid Robot* [👿](https://telegra.ph/file/fede673b8437781068c22.jpg)
+`𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
+evil_IMG = "https://telegra.ph/file/fede673b8437781068c22.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @Timesinotwaiting \
+ You can support the project via [Paypal](#) or by contacting @shrvan42 \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 IMPORTED = {}
