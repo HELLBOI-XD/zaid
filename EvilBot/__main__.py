@@ -69,15 +69,12 @@ PM_START_TEXT = """
 𝐖𝐢𝐭𝐡 𝐋𝐨𝐭𝐬 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭
 𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭 𝐈𝐬 𝐚𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭+𝐌𝐮𝐬𝐢𝐜🔥 𝐛𝐨𝐭.
 
-𝐅𝐨𝐫 𝐇𝐞𝐥𝐩 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 [🔥] (@Timesisnotwaiting)
-
-
  𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 𝐇𝐢𝐭` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID_ROBOT?startgroup=true"),
+            text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID2_ROBOT?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
