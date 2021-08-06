@@ -64,36 +64,33 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝐇𝐨𝐢` [🔥](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `𝐌𝐲 𝐒𝐞𝐥𝐟` *𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭*
-`𝐇𝐢𝐢, 𝐈 𝐦 𝐇𝐞𝐫𝐞 𝐇𝐞𝐥𝐩 𝐔 𝐌𝐚𝐧𝐚𝐠𝐞 𝐔𝐫 𝐠𝐫𝐨𝐮𝐩 𝐄𝐚𝐬𝐢𝐥𝐲.
-𝐖𝐢𝐭𝐡 𝐋𝐨𝐭𝐬 𝐎𝐟 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐢𝐧 𝐭𝐡𝐢𝐬 𝐛𝐨𝐭
-𝐙𝐚𝐢𝐝 𝐑𝐨𝐛𝐨𝐭 𝐈𝐬 𝐚𝐧 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭+𝐌𝐮𝐬𝐢𝐜🔥 𝐛𝐨𝐭.
-
- 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 𝐈𝐧𝐟𝐨 𝐇𝐢𝐭` *👉𝙘𝙤𝙢𝙢𝙖𝙣𝙙𝙨*   
+`ʜᴏɪ` [🔥](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `ɪ ᴍ *ᴢᴀɪᴅ ʀᴏʙᴏᴛ*
+`ɪ ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ᴄʜᴀɴɴᴇʟꜱ ᴡɪᴛʜ ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ!.
+  
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙪𝙧 𝙜𝙧𝙤𝙪𝙥", url="t.me/ZAID2_ROBOT?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/ZAID2_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="𝙊𝙬𝙣𝙚𝙧💝", url="https://t.me/Timesisnotwaiting"),
+        InlineKeyboardButton(text="ᴏɴᴡᴇʀ", url="https://t.me/Timesisnotwaiting"),
         InlineKeyboardButton(
-            text="𝙑𝘾 𝙋𝙡𝙖𝙮𝙚𝙧", url="https://t.me/sed_i/51"
+            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url="https://t.me/sed_i/51"
         ),
      ],
      [  
-        InlineKeyboardButton(text="𝙕𝙖𝙞𝙙 𝙎𝙪𝙥𝙥𝙤𝙧𝙩🛠", url="https://t.me/Zaid_Team"),
-        InlineKeyboardButton(text="𝘾𝙝𝙖𝙣𝙣𝙚𝙡", url="https://t.me/Zaid_Updates"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🔥", url="https://t.me/Zaid_Team"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Zaid_Updates"),
     ], 
 
     [
-        InlineKeyboardButton(text="𝐇𝐞𝐥𝐩 & 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬❔", callback_data="help_back"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴍᴅꜱ🔥", callback_data="help_back"),
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Zaid Robot* [👿](https://telegra.ph/file/fede673b8437781068c22.jpg)
-`𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
+`ʜᴇʏ!.. ɪ'ᴍ` 👿 *ᴢᴀɪᴅ ʀᴏʙᴏᴛ* [👿](https://telegra.ph/file/fede673b8437781068c22.jpg)
+`ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴛʜᴀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴍᴅꜱ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ..`"""
 evil_IMG = "https://telegra.ph/file/fede673b8437781068c22.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @shrvan42 \
@@ -166,7 +163,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="🔥 𝐁𝐚𝐜𝐤", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔥 ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
             elif args[0].lower().startswith("stngs_"):
