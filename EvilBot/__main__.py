@@ -64,7 +64,7 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`ʜᴏɪ` [🔥](https://telegra.ph/file/9621db7825b9cffe5d3d4.jpg) `ɪ ᴍ *ᴢᴀɪᴅ ʀᴏʙᴏᴛ*
+`ʜᴏɪ` [🔥](https://telegra.ph/file/e128bd91b758b7733b0cd.jpg) `ɪ ᴍ ᴢᴀɪᴅ ʀᴏʙᴏᴛ
 `ɪ ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ᴄʜᴀɴɴᴇʟꜱ ᴡɪᴛʜ ᴍᴏʀᴇ ꜰᴇᴀᴛᴜʀᴇꜱ!.
   
 """
@@ -89,11 +89,11 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`ʜᴇʏ!.. ɪ'ᴍ` 👿 *ᴢᴀɪᴅ ʀᴏʙᴏᴛ* [👿](https://telegra.ph/file/fede673b8437781068c22.jpg)
+`ʜᴇʏ!.. ɪ'ᴍ` 👿 ᴢᴀɪᴅ ʀᴏʙᴏᴛ [👿](https://telegra.ph/file/48247ba6d2ac0e6285529.mp4)
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴛʜᴀ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴄᴍᴅꜱ ᴀɴᴅ ᴍᴏᴅᴜʟᴇꜱ..`"""
 evil_IMG = "https://telegra.ph/file/fede673b8437781068c22.jpg"
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @shrvan42 \
+ You can support the project via [Paypal](#) or by contacting @Timesisnotwaiting \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 IMPORTED = {}
