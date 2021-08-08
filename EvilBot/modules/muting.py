@@ -23,20 +23,20 @@ from telegram.utils.helpers import mention_html
 
 def check_user(user_id: int, bot: Bot, chat: Chat) -> Optional[str]:
     if not user_id:
-        reply = "You don't seem to be referring to a user or the ID specified is incorrect.."
+        reply = "ʏᴏᴜ ᴅᴏɴ'ᴛ ꜱᴇᴇᴍ ᴛᴏ ʙᴇ ʀᴇꜰᴇʀʀɪɴɢ ᴛᴏ ᴀ ᴜꜱᴇʀ ᴏʀ ᴛʜᴇ ɪᴅ ꜱᴘᴇᴄɪꜰɪᴇᴅ ɪꜱ ɪɴᴄᴏʀʀᴇᴄᴛ.."
         return reply
 
     try:
         member = chat.get_member(user_id)
     except BadRequest as excp:
         if excp.message == "User not found":
-            reply = "I can't seem to find this user"
+            reply = "ɪ ᴄᴀɴ'ᴛ ꜱᴇᴇᴍ ᴛᴏ ꜰɪɴᴅ ᴛʜɪꜱ ᴜꜱᴇʀ"
             return reply
         else:
             raise
 
     if user_id == bot.id:
-        reply = "I'm not gonna MUTE myself, How high are you?"
+        reply = "ʙʀᴏ ᴄᴏᴏʟ ᴍᴇ ɢᴏᴏɴɴᴀ ᴄᴀɴ ᴍᴜᴛᴇ ᴍʏꜱᴇʟꜰ"
         return reply
 
     if is_user_admin(chat, user_id, member) or user_id in TIGERS:
@@ -83,13 +83,13 @@ def mute(update: Update, context: CallbackContext) -> str:
         bot.restrict_chat_member(chat.id, user_id, chat_permissions)
         bot.sendMessage(
             chat.id,
-            f"Muted <b>{html.escape(member.user.first_name)}</b> with no expiration date!",
+            f"ꜰ**ᴋᴇᴅ <b>{html.escape(member.user.first_name)}</b> ᴛʜɪꜱ ᴜꜱᴇʀ ᴍᴏᴜᴛʜ ꜰᴏʀ ʟɪꜰᴇ ᴛɪᴍᴇ🔥!",
             parse_mode=ParseMode.HTML,
         )
         return log
 
     else:
-        message.reply_text("This user is already muted!")
+        message.reply_text("ᴀʟʀᴇᴀᴅʏ ꜰ**ᴋᴇᴅ ᴛʜɪꜱ ᴜꜱᴇʀ ᴍᴏᴜᴛʜ🔥!")
 
     return ""
 
@@ -108,7 +108,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
     user_id = extract_user(message, args)
     if not user_id:
         message.reply_text(
-            "You'll need to either give me a username to unmute, or reply to someone to be unmuted."
+            "ʏᴏᴜ'ʟʟ ɴᴇᴇᴅ ᴛᴏ ᴇɪᴛʜᴇʀ ɢɪᴠᴇ ᴍᴇ ᴀ ᴜꜱᴇʀɴᴀᴍᴇ ᴛᴏ ᴜɴᴍᴜᴛᴇ, ᴏʀ ʀᴇᴘʟʏ ᴛᴏ ꜱᴏᴍᴇᴏɴᴇ ᴛᴏ ʙᴇ ᴜɴᴍᴜᴛᴇᴅ🔥."
         )
         return ""
 
@@ -121,7 +121,7 @@ def unmute(update: Update, context: CallbackContext) -> str:
             and member.can_send_other_messages
             and member.can_add_web_page_previews
         ):
-            message.reply_text("This user already has the right to speak.")
+            message.reply_text("ᴛʜɪꜱ ᴜꜱᴇʀ ᴀʟʀᴇᴀᴅʏ ᴀʙʟᴇ ᴛᴏ ꜱᴘᴇᴀᴋ🔥.")
         else:
             chat_permissions = ChatPermissions(
                 can_send_messages=True,
@@ -150,8 +150,8 @@ def unmute(update: Update, context: CallbackContext) -> str:
             )
     else:
         message.reply_text(
-            "This user isn't even in the chat, unmuting them won't make them talk more than they "
-            "already do!"
+            "ᴛʜɪꜱ ᴜꜱᴇʀ ɪꜱɴ'ᴛ ᴇᴠᴇɴ ɪɴ ᴛʜᴇ ᴄʜᴀᴛ, ᴜɴᴍᴜᴛɪɴɢ ᴛʜᴇᴍ ᴡᴏɴ'ᴛ ᴍᴀᴋᴇ ᴛʜᴇᴍ ᴛᴀʟᴋ ᴍᴏʀᴇ ᴛʜᴀɴ ᴛʜᴇʏ🔥 "
+            "ᴀʟʀᴇᴀᴅʏ ᴅᴏ!"
         )
 
     return ""
@@ -179,7 +179,7 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
     member = chat.get_member(user_id)
 
     if not reason:
-        message.reply_text("You haven't specified a time to mute this user for!")
+        message.reply_text("ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴀ ᴛɪᴍᴇ ᴛᴏ ᴍᴜᴛᴇ ᴛʜɪꜱ ᴜꜱᴇʀ ꜰᴏʀ!")
         return ""
 
     split_reason = reason.split(None, 1)
@@ -221,9 +221,9 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
             message.reply_text("This user is already muted.")
 
     except BadRequest as excp:
-        if excp.message == "Reply message not found":
+        if excp.message == "ʀᴇᴘʟʏ ᴍᴇꜱꜱᴀɢᴇ ɴᴏᴛ ꜰᴏᴜɴᴅ":
             # Do not reply
-            message.reply_text(f"Muted for {time_val}!", quote=False)
+            message.reply_text(f"ꜰ**ᴋᴇᴅ ꜰᴏʀ {time_val}!", quote=False)
             return log
         else:
             LOGGER.warning(update)
@@ -234,7 +234,7 @@ def temp_mute(update: Update, context: CallbackContext) -> str:
                 chat.id,
                 excp.message,
             )
-            message.reply_text("Well damn, I can't mute that user.")
+            message.reply_text("ᴡᴇʟʟ ᴅᴀᴍɴ, ɪ ᴄᴀɴ'ᴛ ᴍᴜᴛᴇ ᴛʜᴀᴛ ᴜꜱᴇʀ.")
 
     return ""
 
