@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/EvilBot
-RUN git clone -b shiken https://github.com/ANMOL12334/zaid2-robot /root/EvilBot
+RUN git clone https://github.com/ANMOL12334/zaid2-robot.git /root/EvilBot
 WORKDIR /root/EvilBot
 
 #Copy config file to /root/EvilBott/EvilBot
