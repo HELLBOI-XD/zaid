@@ -74,13 +74,13 @@ buttons = [
             text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/ZAID2_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="ᴏɴᴡᴇʀ", url="https://t.me/Timesisnotwaiting"),
+        InlineKeyboardButton(text="ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/Zaid_Team1"),
         InlineKeyboardButton(
-            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url="https://t.me/sed_i/51"
+            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url="https://telegra.ph/file/3b68fe2e77dc802e27f4d.jpg"
         ),
      ],
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🔥", url="https://t.me/Zaid_Team"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🔥", url="https://t.me/Zaid_Support"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Zaid_Updates"),
     ], 
 
