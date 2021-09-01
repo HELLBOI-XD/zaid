@@ -3,7 +3,7 @@
 
 ## You can also tap the Deploy To Heroku button below to deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ANMOL12334/Zaidbot)</p>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ANMOL12334/zaid2-robot)</p>
 <H2 align=center>___________</h2>
 
 ## Starting the bot.
