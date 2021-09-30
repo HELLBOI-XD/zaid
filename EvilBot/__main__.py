@@ -80,7 +80,7 @@ buttons = [
         ),
      ],
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ➡️", url="https://t.me/OnlineHangama"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ➡️", url="https://t.me/SUPERIOR_SUPPORT"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ☑️", url="https://t.me/SUPERIOR_BOTS"),
     ], 
 
