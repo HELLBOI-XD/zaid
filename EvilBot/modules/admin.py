@@ -639,31 +639,31 @@ def adminlist(update, context):
 __help__ = """
  ❍ /admins*:* list of admins in the chat
 
-*Admins only:*
- ❍ /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
- ❍ /unpin*:* unpins the currently pinned message
- ❍ /invitelink*:* gets invitelink
- ❍ /promote*:* promotes the user
- ❍ /demote*:* demotes the user
- ❍ /title <title here>*:* sets a custom title for an admin that the bot promoted
- ❍ /setgtitle <newtitle>*:* Sets new chat title in your group.
- ❍ /setgpic*:* As a reply to file or photo to set group profile pic!
- ❍ /delgpic*:* Same as above but to remove group profile pic.
- ❍ /setsticker*:* As a reply to some sticker to set it as group sticker set!
- ❍ /setdescription <description>*:* Sets new chat description in group.
- ❍ /admincache*:* force refresh the admins list
- ❍ /antispam <on/off/yes/no>*:* Will toggle our antispam tech or return your current settings.
- ❍ /del*:* deletes the message you replied to
- ❍ /purge*:* deletes all messages between this and the replied to message.
- ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
-*Zombies:*
- ❍ /zombies*:* scan deleted accounts
- ❍ /zombies clean*:* cleans deleted accounts
+*ᴀᴅᴍɪɴꜱ ᴏɴʟʏ:*
+❍ /pin*:* ꜱɪʟᴇɴᴛʟʏ ᴘɪɴꜱ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ - ᴀᴅᴅ `'ʟᴏᴜᴅ'` ᴏʀ `'ɴᴏᴛɪꜰʏ'` ᴛᴏ ɢɪᴠᴇ ɴᴏᴛɪꜰꜱ ᴛᴏ ᴜꜱᴇʀꜱ
+ ❍ /unpin*:* ᴜɴᴘɪɴꜱ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴘɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢᴇ
+ ❍ /invitelink*:* ɢᴇᴛꜱ ɪɴᴠɪᴛᴇʟɪɴᴋ
+ ❍ /promotr*:* ᴘʀᴏᴍᴏᴛᴇꜱ ᴛʜᴇ ᴜꜱᴇʀ
+ ❍ /demote*:* ᴅᴇᴍᴏᴛᴇꜱ ᴛʜᴇ ᴜꜱᴇʀ
+ ❍ /title <ᴛɪᴛʟᴇ ʜᴇʀᴇ>*:* ꜱᴇᴛꜱ ᴀ ᴄᴜꜱᴛᴏᴍ ᴛɪᴛʟᴇ ꜰᴏʀ ᴀɴ ᴀᴅᴍɪɴ ᴛʜᴀᴛ ᴛʜᴇ ʙᴏᴛ ᴘʀᴏᴍᴏᴛᴇᴅ
+ ❍ /setgtitle <ɴᴇᴡᴛɪᴛʟᴇ>*:* ꜱᴇᴛꜱ ɴᴇᴡ ᴄʜᴀᴛ ᴛɪᴛʟᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+ ❍ /setgpic*:* ᴀꜱ ᴀ ʀᴇᴘʟʏ ᴛᴏ ꜰɪʟᴇ ᴏʀ ᴘʜᴏᴛᴏ ᴛᴏ ꜱᴇᴛ ɢʀᴏᴜᴘ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄ!
+ ❍ /delgpic*:* ꜱᴀᴍᴇ ᴀꜱ ᴀʙᴏᴠᴇ ʙᴜᴛ ᴛᴏ ʀᴇᴍᴏᴠᴇ ɢʀᴏᴜᴘ ᴘʀᴏꜰɪʟᴇ ᴘɪᴄ.
+ ❍ /setstickers*:* ᴀꜱ ᴀ ʀᴇᴘʟʏ ᴛᴏ ꜱᴏᴍᴇ ꜱᴛɪᴄᴋᴇʀ ᴛᴏ ꜱᴇᴛ ɪᴛ ᴀꜱ ɢʀᴏᴜᴘ ꜱᴛɪᴄᴋᴇʀ ꜱᴇᴛ!
+ ❍ /setdescription <ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ>*:* ꜱᴇᴛꜱ ɴᴇᴡ ᴄʜᴀᴛ ᴅᴇꜱᴄʀɪᴘᴛɪᴏɴ ɪɴ ɢʀᴏᴜᴘ.
+ ❍ /adminchache*:* ꜰᴏʀᴄᴇ ʀᴇꜰʀᴇꜱʜ ᴛʜᴇ ᴀᴅᴍɪɴꜱ ʟɪꜱᴛ
+ ❍ /antispam <ᴏɴ/ᴏꜰꜰ/ʏᴇꜱ/ɴᴏ>*:* ᴡɪʟʟ ᴛᴏɢɢʟᴇ ᴏᴜʀ ᴀɴᴛɪꜱᴘᴀᴍ ᴛᴇᴄʜ ᴏʀ ʀᴇᴛᴜʀɴ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ꜱᴇᴛᴛɪɴɢꜱ.
+ ❍ /del*:* ᴅᴇʟᴇᴛᴇꜱ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ʏᴏᴜ ʀᴇᴘʟɪᴇᴅ ᴛᴏ
+ ❍ /purge*:* ᴅᴇʟᴇᴛᴇꜱ ᴀʟʟ ᴍᴇꜱꜱᴀɢᴇꜱ ʙᴇᴛᴡᴇᴇɴ ᴛʜɪꜱ ᴀɴᴅ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇꜱꜱᴀɢᴇ.
+ ❍ /purgein <ɪɴᴛᴇɢᴇʀ x>*:* ᴅᴇʟᴇᴛᴇꜱ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇꜱꜱᴀɢᴇ, ᴀɴᴅ x ᴍᴇꜱꜱᴀɢᴇꜱ ꜰᴏʟʟᴏᴡɪɴɢ ɪᴛ ɪꜰ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴀ ᴍᴇꜱꜱᴀɢᴇ.
+*ᴢᴏᴍʙɪᴇꜱ:*
+ ❍ /ᴢᴏᴍʙɪᴇꜱ*:* ꜱᴄᴀɴ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛꜱ
+ ❍ /ᴢᴏᴍʙɪᴇꜱ ᴄʟᴇᴀɴ*:* ᴄʟᴇᴀɴꜱ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛꜱ
 
-*Note:* Night Mode chats get Automatically closed at 12 am(IST)
-and Automatically openned at 6 am(IST) To Prevent Night Spams.
+*ɴᴏᴛᴇ:* ɴɪɢʜᴛ ᴍᴏᴅᴇ ᴄʜᴀᴛꜱ ɢᴇᴛ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴄʟᴏꜱᴇᴅ ᴀᴛ 12 ᴀᴍ(ɪꜱᴛ)
+ᴀɴᴅ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴏᴘᴇɴɴᴇᴅ ᴀᴛ 6 ᴀᴍ(ɪꜱᴛ) ᴛᴏ ᴘʀᴇᴠᴇɴᴛ ɴɪɢʜᴛ ꜱᴘᴀᴍꜱ.
 
-⚠️ `Read from top`
+⚠️ `ʀᴇᴀᴅ ꜰʀᴏᴍ ᴛᴏᴘ`
 """
 
 ADMINLIST_HANDLER = DisableAbleCommandHandler("admins", adminlist)
@@ -708,7 +708,7 @@ dispatcher.add_handler(SETCHAT_TITLE_HANDLER)
 dispatcher.add_handler(SETSTICKET_HANDLER)
 dispatcher.add_handler(SETDESC_HANDLER)
 
-__mod_name__ = "Admin"
+__mod_name__ = "ᴀᴅᴍɪɴꜱ"
 __command_list__ = [
     "adminlist",
     "admins",
