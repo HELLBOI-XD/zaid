@@ -74,14 +74,14 @@ buttons = [
             text="ᴀᴅᴅ ᴍᴇ ᴇʟꜱᴇ ᴜ ɢᴀʏ🔥", url="t.me/ZAID2_ROBOT?startgroup=true"),
     ],
      [
-        InlineKeyboardButton(text="ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/Zaid_Team1"),
+        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ", url="https://github.com/Itsunknown-12/Zaid-Robot"),
         InlineKeyboardButton(
-            text="ᴠᴄ ᴘʟᴀʏᴇʀ", url="https://telegra.ph/file/3b68fe2e77dc802e27f4d.jpg"
+            text="ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀᴛ", url="https://t.me/zaid_team1"
         ),
      ],
      [  
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🔥", url="https://t.me/Zaid_Support"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Zaid_Updates"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ➡️", url="https://t.me/OnlineHangama"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ☑️", url="https://t.me/SUPERIOR_BOTS"),
     ], 
 
     [
