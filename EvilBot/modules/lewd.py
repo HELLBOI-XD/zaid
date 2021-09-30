@@ -412,7 +412,7 @@ def dva(update, context):
         return
     msg.reply_photo(url)
 
-__mod_name__ = "Lewd"
+__mod_name__ = "ʟᴇᴡᴅ 18+"
 
 __help__ = """
  - /neko: Sends Random SFW Neko source Images.
